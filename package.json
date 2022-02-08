@@ -1,0 +1,50 @@
+{
+  "name": "dataset-scanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/datasetScanner.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint ./src --ext .js,.json",
+    "start": "node ./bin/dataset-scanner.js",
+    "commit": "git-cz",
+    "release": "standard-version",
+    "publish": "git push --follow-tags"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "dataset-scanner": "./bin/dataset-scanner.js"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "@folder/readdir": "^3.1.0",
+    "chalk": "^5.0.0",
+    "clui": "^0.3.6",
+    "dayjs": "^1.10.7",
+    "inquirer": "^8.2.0",
+    "inquirer-fs-selector": "^1.5.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.8.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^17.0.0-1",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.5.1",
+    "standard-version": "^9.3.2"
+  }
+}
