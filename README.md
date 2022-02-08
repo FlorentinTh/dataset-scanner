@@ -1,4 +1,4 @@
-# dtaset-scanner
+# dataset-scanner
 
 [![License](https://img.shields.io/github/license/FlorentinTh/ws-cli)](https://github.com/FlorentinTh/ws-cli/blob/master/LICENSE)
 
