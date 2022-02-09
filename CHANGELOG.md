@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/FlorentinTh/dataset-scanner/compare/v1.0.1...v1.1.0) (2022-02-09)
+
+
+### Features
+
+* **dataset-scanner:** add a condition related to the test command for the CI ([09fae6a](https://github.com/FlorentinTh/dataset-scanner/commit/09fae6a01a33852b835d463a31300aa02efdd307))
+
+
+### CI
+
+* **gh-actions:** add files for gh-actions to check for deps updates, security and make a test build ([b3ecf58](https://github.com/FlorentinTh/dataset-scanner/commit/b3ecf588f582ad21bcdcb2e637974e30a1731ec8))
+
+
+### Documentation
+
+* **readme:** fix typo ([4aa2b43](https://github.com/FlorentinTh/dataset-scanner/commit/4aa2b437283629d12875247307cc49b603a470dd))
+* **readme:** update readme according to previous commit changes ([e55f34a](https://github.com/FlorentinTh/dataset-scanner/commit/e55f34a26d0023d7c8262706b045c683430c465e))
+
 ### 1.0.1 (2022-02-08)
 
 
