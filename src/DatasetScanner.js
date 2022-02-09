@@ -8,7 +8,7 @@ class DatasetScanner {
     let inputPath;
 
     if (process.env.NODE_ENV === 'test') {
-      inputPath = os.tmpdir();
+      inputPath = os.homedir();
     } else {
       const inputPathAnswer = await QuestionsHelper.askInputPath();
       inputPath = inputPathAnswer.fs.path;
