@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/FlorentinTh/dataset-scanner/compare/v1.1.0...v1.1.1) (2022-02-09)
+
+
+### Bug Fixes
+
+* **dataset-scanner:** change test command input path from tmp directory to home directory ([26e3394](https://github.com/FlorentinTh/dataset-scanner/commit/26e339403eec53b2f074feea0ee9e771315187c8))
+
+
+### CI
+
+* **gh-actions:** update branch name trigger for every workflow from master to main ([8eec9d3](https://github.com/FlorentinTh/dataset-scanner/commit/8eec9d335eb465db6d7eb7f7342b26a97183e0fd))
+
 ## [1.1.0](https://github.com/FlorentinTh/dataset-scanner/compare/v1.0.1...v1.1.0) (2022-02-09)
 
 
