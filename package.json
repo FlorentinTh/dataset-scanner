@@ -13,8 +13,8 @@
     "publish": "git push --follow-tags"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "FlorentinTh",
+  "license": "MIT",
   "bin": {
     "dataset-scanner": "./bin/dataset-scanner.js"
   },
@@ -30,14 +30,14 @@
     "@folder/readdir": "^3.1.0",
     "chalk": "^5.0.0",
     "clui": "^0.3.6",
-    "dayjs": "^1.10.7",
+    "dayjs": "^1.10.8",
     "inquirer": "^8.2.0",
     "inquirer-fs-selector": "^1.5.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.9.0",
+    "eslint": "^8.10.0",
     "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^8.4.0",
     "eslint-config-standard": "^17.0.0-1",
