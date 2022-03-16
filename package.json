@@ -2,7 +2,7 @@
   "name": "dataset-scanner",
   "version": "1.1.2",
   "description": "",
-  "main": "src/datasetScanner.js",
+  "main": "src/DatasetScanner.js",
   "type": "module",
   "scripts": {
     "lint": "eslint ./src --ext .js,.json",
@@ -28,16 +28,16 @@
   },
   "dependencies": {
     "@folder/readdir": "^3.1.0",
-    "chalk": "^5.0.0",
+    "chalk": "^5.0.1",
     "clui": "^0.3.6",
-    "dayjs": "^1.10.8",
-    "inquirer": "^8.2.0",
+    "dayjs": "^1.11.0",
+    "inquirer": "^8.2.1",
     "inquirer-fs-selector": "^1.5.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.10.0",
+    "eslint": "^8.11.0",
     "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0-1",
@@ -46,7 +46,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "pre-commit": "^1.2.2",
-    "prettier": "^2.5.1",
+    "prettier": "^2.6.0",
     "standard-version": "^9.3.2"
   }
 }
