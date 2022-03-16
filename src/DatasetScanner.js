@@ -1,4 +1,5 @@
-import os from 'os';
+import path from 'path';
+import ProgramHelper from './helpers/ProgramHelper.js';
 
 import QuestionsHelper from './helpers/QuestionHelper.js';
 import { Scanner } from './Scanner.js';
@@ -8,7 +9,8 @@ class DatasetScanner {
     let inputPath;
 
     if (process.env.NODE_ENV === 'test') {
-      inputPath = os.homedir();
+      inputPath = path.join(ProgramHelper.getRootPath(), 'dataset');
+      console.log(inputPath);
     } else {
       const inputPathAnswer = await QuestionsHelper.askInputPath();
       inputPath = inputPathAnswer.fs.path;
