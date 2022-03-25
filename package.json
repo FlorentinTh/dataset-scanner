@@ -31,7 +31,7 @@
     "chalk": "^5.0.1",
     "clui": "^0.3.6",
     "dayjs": "^1.11.0",
-    "inquirer": "^8.2.1",
+    "inquirer": "^8.2.2",
     "inquirer-fs-selector": "^1.5.0"
   },
   "devDependencies": {
