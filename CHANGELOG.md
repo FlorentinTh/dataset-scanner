@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.3](https://github.com/FlorentinTh/dataset-scanner/compare/v1.1.2...v1.1.3) (2022-03-31)
+
+
+### Bug Fixes
+
+* **dataset-scanner:** change input path for test command ([8bba9dd](https://github.com/FlorentinTh/dataset-scanner/commit/8bba9ddc1f4ef23335ec7b441d0d0257bf20cd63))
+
+
+### Chore
+
+* **deps:** update dependencies ([59c4ee5](https://github.com/FlorentinTh/dataset-scanner/commit/59c4ee5af7ebde4fc9741d8c9c26f38aed663b95))
+* **deps:** update dependencies ([179c0a4](https://github.com/FlorentinTh/dataset-scanner/commit/179c0a4b590d3cc2bd9e1015f56abf4fa13e2c13))
+
 ### [1.1.2](https://github.com/FlorentinTh/dataset-scanner/compare/v1.1.1...v1.1.2) (2022-03-04)
 
 
