@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.4](https://github.com/FlorentinTh/dataset-scanner/compare/v1.1.3...v1.1.4) (2022-04-19)
+
+
+### Chore
+
+* **deps:** update dependencies ([5b903c9](https://github.com/FlorentinTh/dataset-scanner/commit/5b903c9b6568d28eff1fce2d6efa9a7a736aafc3))
+* **eslint:** change eslint config and dependencies ([007df6d](https://github.com/FlorentinTh/dataset-scanner/commit/007df6d0ee1659e27f20df55c7c410567faa3323))
+
 ### [1.1.3](https://github.com/FlorentinTh/dataset-scanner/compare/v1.1.2...v1.1.3) (2022-03-31)
 
 
