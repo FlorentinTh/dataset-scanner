@@ -30,7 +30,7 @@
     "@folder/readdir": "^3.1.0",
     "chalk": "^5.0.1",
     "clui": "^0.3.6",
-    "dayjs": "^1.11.3",
+    "dayjs": "^1.11.6",
     "inquirer": "^8.2.4",
     "inquirer-fs-selector": "^1.5.0"
   },
